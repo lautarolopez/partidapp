@@ -1,10 +1,10 @@
 {
-  "name": "stellaris-modding-toolbox",
+  "name": "Partidapp",
   "version": "0.0.0",
   "author": {
-    "name": "David Sima",
-    "email": "hello@david-sima.dev",
-    "url": "https://github.com/The24thDS"
+    "name": "Lautaro López",
+    "email": "lautarolopez98@gmail.com",
+    "url": "https://github.com/lautarolopez/partidapp"
   },
   "private": true,
   "license": "MIT",

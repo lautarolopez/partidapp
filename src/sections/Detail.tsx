@@ -56,7 +56,6 @@ const Detail: React.FC = () => {
       index: +index,
       image: user?.photoURL ? user.photoURL : '',
     };
-    console.log(newComment);
     await CommentsService.saveComment(newComment);
     setComments([...comments, newComment]);
   };
