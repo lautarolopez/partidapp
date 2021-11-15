@@ -156,11 +156,8 @@ const loadFromLocalStorage = async () => {
   }
 };
 
-const firstCreateStore = async () => {
-  const store = createStore(reducer, await loadFromLocalStorage());
-  store.subscribe(() => {
-    savetoLocalStorage(store.getState());
-  });
-};
+export const store = createStore(reducer, await loadFromLocalStorage());
 
-firstCreateStore();
+store.subscribe(() => {
+  savetoLocalStorage(store.getState());
+});
